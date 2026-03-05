@@ -1,184 +1,207 @@
-
 <!doctype html>
-<html>
+<html lang="en">
   <head>
-    <!-- Page setup -->
-    <meta charset="utf-8">
-    <title>Your title here</title>
-    <meta name="description" content="A brief description of your site for search engines">
-    <meta name="author" content="Information about the author here">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
-    <link rel="icon" type="image/png" href="favicon.png">
-  
-    <!-- Stylesheets -->
-    <!-- Reset default styles and add support for google fonts -->
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet" type="text/css" />
-    <link href="http://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
-   
-    <!-- Custom styles -->
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>    
+    <title>Abishek Anand</title>
+    <meta name="description" content="Abishek Anand — CS + ECE @ CMU. Distributed systems, ML, and low-latency engineering." />
 
-    <!-- Want to add Bootstrap? -->
-    <!-- Visit: https://getbootstrap.com/docs/4.3/getting-started/introduction/ -->
-    
+    <!-- Optional: favicon -->
+    <link rel="icon" type="image/png" href="favicon.png" />
+
+    <!-- Fonts: keep it minimal (system font stack) -->
+    <link rel="stylesheet" href="style.css" />
   </head>
-  
+
   <body>
+    <main class="page">
+      <header class="header">
+        <div class="hero">
+          <img class="avatar" src="Fairfax.jpg" alt="Photo of Abishek Anand" />
 
-    <header id="header">
-      <img src="Fairfax.jpg"
-           width = "200"
-           height = "250">
-      <h1>Abishek Anand's Portfolio</h1>
-      
-      <!-- Menu link fragment #id should match a div id. Example: <a href="#home"> links to <div id="home"></div>  -->
-      <ul class="main-menu">
-        <li><a href="#home">home</a></li>
-        <li><a href="#about">about</a></li>
-        <li><a href="#contact">contact</a></li>
-      </ul>                 
-    </header>
+          <div class="hero-text">
+            <h1>Abishek Anand</h1>
+            <p class="subtitle">
+              CS + ECE @ Carnegie Mellon. I build distributed systems and work on ML systems.
+            </p>
 
-    <div id="container">
-        <div class="inner">
-          <div id="content"> 
-            
-            <div id="home" class="content-region hide">
-              <h2>Home</h2>
-              <p>
-                Hi, welcome to my personal website!
-              </p>
+            <p class="links">
+              <a href="mailto:abishek.panand@gmail.com">email</a>
+              <span class="sep">/</span>
+              <a href="https://www.linkedin.com/in/abishek-anand-1204501ba/" target="_blank" rel="noreferrer">linkedin</a>
+              <span class="sep">/</span>
+              <a href="Abishek_Anand_Resume.pdf" target="_blank" rel="noreferrer">resume</a>
+              <!-- optional:
+              <span class="sep">/</span>
+              <a href="https://github.com/YOUR_GITHUB" target="_blank" rel="noreferrer">github</a>
+              -->
+            </p>
+          </div>
+        </div>
+
+        <nav class="nav">
+          <a href="#about">about</a>
+          <a href="#now">now</a>
+          <a href="#experience">experience</a>
+          <a href="#projects">projects</a>
+          <a href="#coursework">coursework</a>
+          <a href="#contact">contact</a>
+        </nav>
+      </header>
+
+      <section id="about" class="section">
+        <h2>About</h2>
+        <p>
+          I’m a CS + ECE student at Carnegie Mellon (M.S./B.S., May 2027). I’m interested in
+          distributed systems, ML/AI, and low-latency engineering — especially where correctness,
+          performance, and real-world constraints collide.
+        </p>
+        <p>
+          Previously, I worked on cloud access management at NVIDIA and on quantitative trading
+          systems at Optiver. I’m also a teaching assistant for a graduate Generative AI course at CMU.
+        </p>
+      </section>
+
+      <section id="now" class="section">
+        <h2>Now</h2>
+        <ul>
+          <li>Building systems and tooling in trading infrastructure at Optiver (Chicago).</li>
+          <li>TA’ing CMU 10-623 (Generative AI): transformers, diffusion, efficient training, agents.</li>
+          <li>Exploring ML systems + distributed consensus/replication projects.</li>
+        </ul>
+        <p class="note">
+          (If you want this section to feel like Karpathy’s “Now”, keep it short and update it occasionally.)
+        </p>
+      </section>
+
+      <section id="experience" class="section">
+        <h2>Experience</h2>
+
+        <div class="item">
+          <div class="item-top">
+            <div>
+              <div class="item-title">Optiver — Software Engineering Intern (Quantitative Trading Systems)</div>
+              <div class="item-subtitle">Chicago, IL</div>
             </div>
-   
-    
-          
-          <div id="about" class="content-region hide">
-            <h2>About</h2>
-            <p>
-              My name is Abishek Anand and I am from Houston, Texas. I am currently a junior at Carnegie Mellon University, pursuing a double major in Computer Science and Electrical and Computer Engineering. My coursework
-              is mostly focused on AI/ML and Computer Systems. I enjoy problem-solving and am looking for a summer 2025 internship.
-            </p>
+            <div class="item-date">Jun 2025 – Present</div>
           </div>
-
-          <div id="Work Experience" class="content-region hide"></div>
-            <h2>Work Experience</h2>
-            <p>
-              Summer 2024: Software Engineering Internship @ NVIDIA
-            </p>
-
-            <p>
-                Spring 2024 - Present: Graduate Teaching Assistant (Intro. to Computer Systems) @ CMU
-            </p>
-
-            <p>
-                Summer 2023: Robotics Researcher @ CMU Robotics Institute
-            </p>
-
-            <p>
-                Spring 2023: Undergraduate Teaching Assistant (Intro. to ECE) @ CMU
-            </p>
-          </div>
-
-          <div id="container">
-            <div class="inner">
-              <div id="content"> 
-                
-                <div id="Projects" class="content-region hide">
-                  <h2>Projects</h2>
-                  <p>
-                    1. Feed-Forward Neural Network for Speech Recognition
-                  </p>
-                  <p>
-                    2. Convolution Neural Network for Image Recognition
-                  </p>
-                  <p>
-                    3. Dynamic Memory Allocator
-                  </p>
-                  <p>
-                    4. LRU Cache Emulator
-                  </p>
-                  <p>
-                    5. Web Proxy
-                  </p>
-                </div>
-      
-              </div>
-          </div>
+          <ul>
+            <li>Built/extended internal tooling for traders; improved visibility into instrument properties.</li>
+            <li>Implemented monitoring across 100k+ instruments with millisecond-precision parameter updates.</li>
+            <li>Working on a priority-based rule evaluation engine for flexible autotrading configuration.</li>
+          </ul>
         </div>
 
-        <div id="container"></div>
-            <div class="inner">
-              <div id="content"> 
-                
-                <div id="Coursework" class="content-region hide">
-                  <h2>Coursework</h2>
-                    <h3>Computer Science</h3>
-                        <ul>
-                            <li>15-122: Data Structures and Algorithms</li>
-                            <li>15-150: Functional Programming</li>
-                            <li>15-251: Great Ideas in Theoretical CS</li>
-                            <li>15-210: Parallel and Sequential Data Structures and Algorithms</li>
-                        </ul>
-                    
-                    <h3>Artificial Intelligence</h3>
-                        <ul>
-                            <li>10-301: Intro. to Machine Learning</li>
-                            <li>11-485: Intro. to Deep Learning</li>
-                            <li>10-423: Generative AI</li>
-                        </ul>
-                    <h3>Computer Systems</h3>
-                        <ul>
-                            <li>18-213: Intro. to Computer Systems (TA)</li>
-                            <li>15-440: Distributed Systems</li>
-                        </ul>
-
-                    <h3>Electrical and Computer Engineering</h3>
-                        <ul>
-                            <li>18-100: Intro. to ECE (TA)</li>
-                            <li>18-240: Structure and Design of Digital Systems</li>
-                            <li>18-290: Signals and Systems</li>
-                        </ul>
-
-                    <h3>Mathematics</h3>
-                        <ul>
-                            <li>21-127: Concepts of Mathematics (Discrete Math)</li>
-                            <li>21-241: Linear Algebra</li>
-                            <li>21-259: 3D Calculus</li>
-                            <li>36-225: Probability Theory</li>
-                        </ul>
-
-      
-              </div>
+        <div class="item">
+          <div class="item-top">
+            <div>
+              <div class="item-title">NVIDIA — Software Engineering Intern (Cloud Engineering &amp; Services)</div>
+              <div class="item-subtitle">Santa Clara, CA</div>
+            </div>
+            <div class="item-date">May 2024 – Aug 2024</div>
           </div>
+          <ul>
+            <li>Designed and built “NVIDIA Access Management”, a distributed system used by NVIDIA cloud services.</li>
+            <li>Shipped Go APIs (go-kit + gRPC), Cassandra (CQL) schemas, and Kubernetes-tested microservices.</li>
+            <li>Scaled policy evaluation with goroutines for low-latency; system handled ~200M requests/week.</li>
+          </ul>
         </div>
-        <div id="Resume and Cover Letter" class="content-region hide">
-          <h2>Resume and Cover Letter</h2>
-          <p>
-              <a href="https://drive.google.com/file/d/17kogviDMiZzKgNlHfnmg0ixdCsZa3C9m/view?usp=sharing">Resume</a>
+
+        <div class="item">
+          <div class="item-top">
+            <div>
+              <div class="item-title">CMU — Generative AI Teaching Assistant (10-623)</div>
+              <div class="item-subtitle">Pittsburgh, PA</div>
+            </div>
+            <div class="item-date">Jan 2025 – Present</div>
+          </div>
+          <ul>
+            <li>Teach recitations and help create assignments/exams for an advanced graduate AI course.</li>
+            <li>Topics: transformers/attention, diffusion, fine-tuning, efficient training, code gen, agents.</li>
+          </ul>
+        </div>
+
+        <div class="item">
+          <div class="item-top">
+            <div>
+              <div class="item-title">CMU — Computer Systems Teaching Assistant (15-213 / 15-613)</div>
+              <div class="item-subtitle">Pittsburgh, PA</div>
+            </div>
+            <div class="item-date">Jan 2024 – Dec 2024</div>
+          </div>
+          <ul>
+            <li>Helped teach systems fundamentals to ~500 students: x86-64, debugging, caches, malloc, proxies.</li>
+          </ul>
+        </div>
+
+        <p class="footnote">
+          (Sourced from your resume; if you want, we can add 1–2 lines per role that highlight impact and “why it mattered”.)
+        </p>
+      </section>
+
+      <section id="projects" class="section">
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-top">
+            <div class="item-title">Distributed Bitcoin Miner</div>
+            <div class="item-date">Fall 2024</div>
+          </div>
+          <p class="item-blurb">
+            Built a custom protocol (LSP) combining UDP efficiency with TCP-like reliability: retransmission,
+            sliding windows, checksums, then used it to distribute simplified “mining”.
           </p>
-              <a href="https://drive.google.com/file/d/1euA-ogGmplQUcxgCjlVNBpG1xZ1hDyXy/view?usp=sharing">Cover Letter</a>
-          
         </div>
-          <div id="contact" class="content-region hide">
-            <h2>Contact</h2>
-            <p>
-                <a href="https://www.linkedin.com/in/abishek-anand-1204501ba/">LinkedIn</a>
-            </p>
-          </div>
-          
-        </div>
-      </div>
-    </div>
 
-    <footer>  
-      Thanks for visiting my website!
-    </footer>
-    
-    <!-- Load additional JS scripts here -->
-    <script type="text/javascript" src="script.js"></script>
-    
+        <div class="item">
+          <div class="item-top">
+            <div class="item-title">Raft Consensus Algorithm</div>
+            <div class="item-date">Fall 2024</div>
+          </div>
+          <p class="item-blurb">
+            Implemented leader election + log replication and handled failures/partitions for replicated state.
+          </p>
+        </div>
+
+        <div class="item">
+          <div class="item-top">
+            <div class="item-title">Dynamic Memory Allocator (malloc)</div>
+            <div class="item-date">Jul 2023</div>
+          </div>
+          <p class="item-blurb">
+            Optimized throughput and utilization with segregated explicit lists and fragmentation reductions.
+          </p>
+        </div>
+
+        <p class="note">
+          Tip: if you can link each project to a short write-up or GitHub repo, this section becomes *way* more convincing.
+        </p>
+      </section>
+
+      <section id="coursework" class="section">
+        <h2>Coursework</h2>
+        <p class="muted">
+          Selected: Deep Learning, Machine Learning, Generative AI, Distributed Systems, Computer Systems,
+          Functional Programming, Probability, Statistical Inference (plus OS/Networks/Deep RL pending).
+        </p>
+      </section>
+
+      <section id="contact" class="section">
+        <h2>Contact</h2>
+        <p>
+          Best way to reach me: <a href="mailto:abishek.panand@gmail.com">abishek.panand@gmail.com</a>.
+        </p>
+      </section>
+
+      <footer class="footer">
+        <p class="muted">© <span id="year"></span> Abishek Anand</p>
+      </footer>
+    </main>
+
+    <script>
+      // tiny, optional: auto-year
+      document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
   </body>
 </html>
