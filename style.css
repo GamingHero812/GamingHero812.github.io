@@ -71,20 +71,37 @@ h1 {
   color: var(--muted);
   display: flex;
   flex-wrap: wrap;
-  gap: 14px;
+  gap: 10px;
   align-items: center;
 }
 
 .social-link {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
-}
-
-.social-link svg {
+  justify-content: center;
   width: 20px;
   height: 20px;
+  line-height: 1;
+}
+
+.social-icon {
+  width: 18px;
+  height: 18px;
   fill: currentColor;
+  flex: none;
+  display: block;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .sep { margin: 0 8px; color: var(--muted); }
