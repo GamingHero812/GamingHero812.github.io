@@ -6,20 +6,14 @@
   --link: #111111;
   --rule: #e9e9e9;
   --maxw: 1000px;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg: #0f0f10;
-    --fg: #f2f2f2;
-    --muted: #b6b6b6;
-    --link: #f2f2f2;
-    --rule: #242427;
-  }
+  color-scheme: light;
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  background: var(--bg);
+}
 
 body {
   margin: 0;
