@@ -355,3 +355,37 @@ a:hover {
   font-size: 1.05em;
   margin-right: 0.3em;
 }
+
+.note-article {
+  max-width: 780px;
+}
+
+.note-article h2 {
+  margin-top: 28px;
+}
+
+.note-article h2:first-child {
+  margin-top: 0;
+}
+
+.note-article p {
+  margin: 14px 0;
+}
+
+.math-block {
+  margin: 18px 0;
+  padding: 12px 16px;
+  overflow-x: auto;
+  border-left: 3px solid #d8d8d8;
+  background: #fafafa;
+}
+
+.note-list {
+  margin-top: 12px;
+  margin-left: 24px;
+}
+
+.note-list li {
+  margin: 12px 0;
+  padding-left: 4px;
+}
