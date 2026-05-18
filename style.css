@@ -259,6 +259,37 @@ a:hover {
 }
 
 /* Timeline (karpathy-ish) */
+.timeline-disclosure > summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  list-style: none;
+}
+
+.timeline-disclosure > summary::-webkit-details-marker,
+.t-detail > summary::-webkit-details-marker {
+  display: none;
+}
+
+.timeline-disclosure > summary::before,
+.t-detail > summary::before {
+  content: "+";
+  color: var(--muted);
+  font-weight: 400;
+  width: 14px;
+  flex: none;
+}
+
+.timeline-disclosure[open] > summary::before,
+.t-detail[open] > summary::before {
+  content: "-";
+}
+
+.timeline-disclosure h2 {
+  margin: 0;
+}
+
 .timeline {
   position: relative;
   margin-top: 14px;
@@ -313,6 +344,11 @@ a:hover {
   align-items: flex-start;
 }
 
+.t-body {
+  min-width: 0;
+  width: 100%;
+}
+
 .t-logo img {
   width: 72px;
   height: 72px;
@@ -324,8 +360,14 @@ a:hover {
 }
 
 .t-title {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  align-items: baseline;
   font-weight: 600;
   line-height: 1.35;
+  cursor: pointer;
+  list-style: none;
 }
 
 .t-role {
@@ -334,7 +376,8 @@ a:hover {
 }
 
 .t-desc {
-  margin-top: 4px;
+  margin-top: 8px;
+  padding-left: 20px;
   color: var(--muted);
   font-size: 19px;
 }

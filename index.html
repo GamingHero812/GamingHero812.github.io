@@ -42,7 +42,7 @@
           <div class="hero-text">
             <h1>Abishek Anand</h1>
             <p class="subtitle">
-              CS + ECE @ Carnegie Mellon University
+              M.S. Machine Learning, B.S. CS+ECE @ Carnegie Mellon University
             </p>
             <figure class="hero-quote">
               <blockquote>We cannot change the cards we are dealt, just how we play the hand.</blockquote>
@@ -86,8 +86,7 @@
         <nav class="nav">
           <a href="#about">about</a>
           <a href="#timeline">timeline</a>
-          <a href="readings/">readings</a>
-          <a href="concepts/">concepts</a>
+          <a href="blog/">blog</a>
           <a href="#coursework">coursework</a>
           <a href="#contact">contact</a>
         </nav>
@@ -96,7 +95,7 @@
       <section id="about" class="section">
         <h2>About</h2>
         <p>
-          I'm an AI researcher and incoming graduate student at the Machine Learning Department of Carnegie Mellon University, pursuing a <a href="https://ml.cmu.edu/academics/primary-ms-machine-learning-masters" target="_blank" rel="noopener">
+          I'm an AI researcher and graduate student at the Machine Learning Department of Carnegie Mellon University, pursuing a <a href="https://ml.cmu.edu/academics/primary-ms-machine-learning-masters" target="_blank" rel="noopener">
           Master of Science in Machine Learning </a>. Previously, I was an undergraduate student at CMU, double majoring in <a href="https://www.cs.cmu.edu" target="_blank" rel="noopener">
           Computer Science </a> and <a href="https://www.ece.cmu.edu" target="_blank" rel="noopener">
           Electrical and Computer Engineering </a>. Broadly, I'm interested in building technology that makes the world a better place. Recently, I've
@@ -122,9 +121,12 @@
       </section>
 
       <section id="timeline" class="section">
-        <h2>Timeline</h2>
+        <details class="timeline-disclosure" open>
+          <summary>
+            <h2>Timeline</h2>
+          </summary>
 
-        <div class="timeline">
+          <div class="timeline">
 
           <div class="t-item">
             <div class="t-year">Jan- 2026</div>
@@ -135,14 +137,16 @@
                 <img class="avatar" src="MLD.jpg" alt="MLD Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://cmudeeprl.github.io/403website_s26/" target="_blank" rel="noopener">Teaching Assistant (10-703/10-403 Deep Reinforcement Learning)</a>
-                </div>
-                <div class="t-desc">
-                  Worked with Professors <a href="https://www.cs.cmu.edu/~katef/" target="_blank" rel="noopener">Katerina Fragkiadaki</a> and <a href="https://aviralkumar2907.github.io/" target="_blank" rel="noopener">Aviral Kumar</a> on teaching the latest topics in RL. This was the course that first got me 
-                  interested in robotics and one of my favorites at CMU.
-                  I also contributed to putting together a brand new textbook for Modern Reinforcement Learning. More on this soon!
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://cmudeeprl.github.io/403website_s26/" target="_blank" rel="noopener">Teaching Assistant (10-703/10-403 Deep Reinforcement Learning)</a>
+                  </summary>
+                  <div class="t-desc">
+                    Worked with Professors <a href="https://www.cs.cmu.edu/~katef/" target="_blank" rel="noopener">Katerina Fragkiadaki</a> and <a href="https://aviralkumar2907.github.io/" target="_blank" rel="noopener">Aviral Kumar</a> on teaching the latest topics in RL. This was the course that first got me 
+                    interested in robotics and one of my favorites at CMU.
+                    I also contributed to putting together a brand new textbook for Modern Reinforcement Learning. More on this soon!
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -156,12 +160,14 @@
                 <img class="avatar" src="MLD.jpg" alt="MLD Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.cs.cmu.edu/~mgormley/courses/10423-f25/" target="_blank" rel="noopener">Teaching Assistant (10-723/10-623/10-423 Generative AI)</a>
-                </div>
-                <div class="t-desc">
-                  Worked with Professors <a href="https://www.cs.cmu.edu/~mgormley/" target="_blank" rel="noopener">Matt Gormley</a> and <a href="https://anayebi.github.io/" target="_blank" rel="noopener">Aran Nayebi</a> in my second iteration of teaching this course.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.cs.cmu.edu/~mgormley/courses/10423-f25/" target="_blank" rel="noopener">Teaching Assistant (10-723/10-623/10-423 Generative AI)</a>
+                  </summary>
+                  <div class="t-desc">
+                    Worked with Professors <a href="https://www.cs.cmu.edu/~mgormley/" target="_blank" rel="noopener">Matt Gormley</a> and <a href="https://anayebi.github.io/" target="_blank" rel="noopener">Aran Nayebi</a> in my second iteration of teaching this course.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -175,17 +181,19 @@
                 <img class="avatar" src="Optiver.jpg" alt="Optiver Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.optiver.com" target="_blank" rel="noopener">Optiver</a>
-                  <span class="t-role">— Software Engineering Intern (Quantitative Trading Systems)</span>
-                </div>
-                <div class="t-desc">
-                  This was my first exposure to the exciting world of high-frequency trading. 
-                  I worked on automating a key part of the trading system. This involved interfacing with
-                  developers, traders, and researchers. As part of the company intern hackathon, I built
-                  an AI tool that sources news headlines from Bloomberg terminal and sends slack updates to relevant
-                  traders in real-time with predictions on instrument price movements.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.optiver.com" target="_blank" rel="noopener">Optiver</a>
+                    <span class="t-role">— Software Engineering Intern (Quantitative Trading Systems)</span>
+                  </summary>
+                  <div class="t-desc">
+                    This was my first exposure to the exciting world of high-frequency trading. 
+                    I worked on automating a key part of the trading system. This involved interfacing with
+                    developers, traders, and researchers. As part of the company intern hackathon, I built
+                    an AI tool that sources news headlines from Bloomberg terminal and sends slack updates to relevant
+                    traders in real-time with predictions on instrument price movements.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -199,14 +207,16 @@
                 <img class="avatar" src="MLD.jpg" alt="MLD Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.cs.cmu.edu/~mgormley/courses/10423-f25/" target="_blank" rel="noopener">Teaching Assistant (10-723/10-623/10-423 Generative AI)</a>
-                </div>
-                <div class="t-desc">
-                  Worked with Professors <a href="https://www.cs.cmu.edu/~mgormley/" target="_blank" rel="noopener">Matt Gormley</a> and <a href="https://www.cs.cmu.edu/~pvirtue/" target="_blank" rel="noopener">Pat Virtue</a> on teaching the latest topics in Generative AI. This was my favorite course at CMU and 
-                  got me really excited about AI. This course takes you from nothing to being able to understand the latest research papers in just a semester (across language,
-                  vision, and multi-modal generative models). Highly recommend this course.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.cs.cmu.edu/~mgormley/courses/10423-f25/" target="_blank" rel="noopener">Teaching Assistant (10-723/10-623/10-423 Generative AI)</a>
+                  </summary>
+                  <div class="t-desc">
+                    Worked with Professors <a href="https://www.cs.cmu.edu/~mgormley/" target="_blank" rel="noopener">Matt Gormley</a> and <a href="https://www.cs.cmu.edu/~pvirtue/" target="_blank" rel="noopener">Pat Virtue</a> on teaching the latest topics in Generative AI. This was my favorite course at CMU and 
+                    got me really excited about AI. This course takes you from nothing to being able to understand the latest research papers in just a semester (across language,
+                    vision, and multi-modal generative models). Highly recommend this course.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -220,12 +230,14 @@
                 <img class="avatar" src="ECE.jpg" alt="ECE Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.cs.cmu.edu/afs/cs/academic/class/18213-f24/www/index.html" target="_blank" rel="noopener">Teaching Assistant (18-613/18-213 Intro. to Computer Systems)</a>
-                </div>
-                <div class="t-desc">
-                  Worked with Professors <a href="https://www.andrew.cmu.edu/~gkesden" target="_blank" rel="noopener">Greg Kesden</a> and <a href="https://users.ece.cmu.edu/~vsekar/" target="_blank" rel="noopener">Vyas Sekar</a> in my second iteration of teaching this course.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.cs.cmu.edu/afs/cs/academic/class/18213-f24/www/index.html" target="_blank" rel="noopener">Teaching Assistant (18-613/18-213 Intro. to Computer Systems)</a>
+                  </summary>
+                  <div class="t-desc">
+                    Worked with Professors <a href="https://www.andrew.cmu.edu/~gkesden" target="_blank" rel="noopener">Greg Kesden</a> and <a href="https://users.ece.cmu.edu/~vsekar/" target="_blank" rel="noopener">Vyas Sekar</a> in my second iteration of teaching this course.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -239,15 +251,17 @@
                 <img src="Nvidia.jpg" alt="NVIDIA logo" loading="lazy">
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.nvidia.com" target="_blank" rel="noopener">NVIDIA</a>
-                  <span class="t-role">— Software Engineering Intern (Cloud Engineering & Services)</span>
-                </div>
-                <div class="t-desc">
-                  First ever real-world engineering experience.
-                  I learned a lot about software engineering, distributed systems, and also what I value in a work place.
-                  Probably the only work experience I'll have in my life where AI couldn't do anything useful from a coding perspective.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.nvidia.com" target="_blank" rel="noopener">NVIDIA</a>
+                    <span class="t-role">— Software Engineering Intern (Cloud Engineering & Services)</span>
+                  </summary>
+                  <div class="t-desc">
+                    First ever real-world engineering experience.
+                    I learned a lot about software engineering, distributed systems, and also what I value in a work place.
+                    Probably the only work experience I'll have in my life where AI couldn't do anything useful from a coding perspective.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -261,16 +275,18 @@
                 <img class="avatar" src="MLD.jpg" alt="MLD Logo" />
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.cs.cmu.edu/afs/cs/academic/class/18213-s24/www/index.html" target="_blank" rel="noopener">Teaching Assistant (18-613/18-213 Intro. to Computer Systems)</a>
-                </div>
-                <div class="t-desc">
-                  Worked with Professors <a href="https://www.andrew.cmu.edu/~gkesden" target="_blank" rel="noopener">Greg Kesden</a> and <a href="https://swarunkumar.com/" target="_blank" rel="noopener">Swarun Kumar</a> on teaching the core systems course at CMU. This was also one of my favorite courses at CMU.
-                  The course's only prerequisite is basic knowledge of DSA and will give you a rigorous understanding of all the major topics in computer systems. 
-                  By the end of it, you'll be fluent in C, assembly, GDB, caches, memory allocation, networking, and a lot more. The projects were really intense and useful. Some
-                  of the projects were implementing malloc, a caching web server, and a basic linux shell. I'm glad I took this course pre-chatGPT, so I could truly
-                  appreciate the depth of these projects. I've heard students can <a href="https://www.ibm.com/think/topics/one-shot-prompting" target="_blank" rel="noopener">one-shot</a> the class with LLMs now.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.cs.cmu.edu/afs/cs/academic/class/18213-s24/www/index.html" target="_blank" rel="noopener">Teaching Assistant (18-613/18-213 Intro. to Computer Systems)</a>
+                  </summary>
+                  <div class="t-desc">
+                    Worked with Professors <a href="https://www.andrew.cmu.edu/~gkesden" target="_blank" rel="noopener">Greg Kesden</a> and <a href="https://swarunkumar.com/" target="_blank" rel="noopener">Swarun Kumar</a> on teaching the core systems course at CMU. This was also one of my favorite courses at CMU.
+                    The course's only prerequisite is basic knowledge of DSA and will give you a rigorous understanding of all the major topics in computer systems. 
+                    By the end of it, you'll be fluent in C, assembly, GDB, caches, memory allocation, networking, and a lot more. The projects were really intense and useful. Some
+                    of the projects were implementing malloc, a caching web server, and a basic linux shell. I'm glad I took this course pre-chatGPT, so I could truly
+                    appreciate the depth of these projects. I've heard students can <a href="https://www.ibm.com/think/topics/one-shot-prompting" target="_blank" rel="noopener">one-shot</a> the class with LLMs now.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -284,16 +300,18 @@
                 <img src="RI.jpg" alt="CMU Robotics Institute logo" loading="lazy">
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://www.ri.cmu.edu" target="_blank" rel="noopener">CMU Robotics Institute</a>
-                  <span class="t-role">— Robotics Research Assistant</span>
-                </div>
-                <div class="t-desc">
-                  I did some self study of the 16-350: Planning Techniques for Robotics course at CMU. I also helped a PhD student
-                  with their research on a modification to the A-star planning algorithm for more efficient pathfinding.
-                  Looking back, I wish I dedicated more time to this project given my current interest in robotics. I was taking
-                  18-213 at the same time, which took up considerable effort.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://www.ri.cmu.edu" target="_blank" rel="noopener">CMU Robotics Institute</a>
+                    <span class="t-role">— Robotics Research Assistant</span>
+                  </summary>
+                  <div class="t-desc">
+                    I did some self study of the 16-350: Planning Techniques for Robotics course at CMU. I also helped a PhD student
+                    with their research on a modification to the A-star planning algorithm for more efficient pathfinding.
+                    Looking back, I wish I dedicated more time to this project given my current interest in robotics. I was taking
+                    18-213 at the same time, which took up considerable effort.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
@@ -307,22 +325,25 @@
                 <img src="ECE.jpg" alt="CMU Robotics Institute logo" loading="lazy">
               </a>
               <div class="t-body">
-                <div class="t-title">
-                  <a href="https://courses.ece.cmu.edu/18100" target="_blank" rel="noopener">Teaching Assistant (18-100: Intro. to ECE)</a>
-                </div>
-                <div class="t-desc">
-                  The course is more of an intro to EE than ECE. There is basically zero content that covers programming in
-                  any meaningful capacity. The course consists entirely of a variety of breadboard projects. It was through this course
-                  that I knew for certain that I was not interested in circuit design. In software, if something is wrong, I definitely did something wrong.
-                  However, with hardware, if something goes wrong, it could easily be the case that I did everything correctly but one of the devices I was using
-                  was faulty. I really disliked that aspect of circuit design, and chose to specialize more on the software side as a result. However, teaching the course was still a valuable experience,
-                  especially this early in my career.
-                </div>
+                <details class="t-detail">
+                  <summary class="t-title">
+                    <a href="https://courses.ece.cmu.edu/18100" target="_blank" rel="noopener">Teaching Assistant (18-100: Intro. to ECE)</a>
+                  </summary>
+                  <div class="t-desc">
+                    The course is more of an intro to EE than ECE. There is basically zero content that covers programming in
+                    any meaningful capacity. The course consists entirely of a variety of breadboard projects. It was through this course
+                    that I knew for certain that I was not interested in circuit design. In software, if something is wrong, I definitely did something wrong.
+                    However, with hardware, if something goes wrong, it could easily be the case that I did everything correctly but one of the devices I was using
+                    was faulty. I really disliked that aspect of circuit design, and chose to specialize more on the software side as a result. However, teaching the course was still a valuable experience,
+                    especially this early in my career.
+                  </div>
+                </details>
               </div>
             </div>
           </div>
 
-        </div>
+          </div>
+        </details>
       </section>
 
       <section id="experience" class="section">
@@ -386,7 +407,14 @@
     </main>
 
     <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
+      document.querySelectorAll(".t-title a").forEach((link) => {
+        link.addEventListener("click", (event) => event.stopPropagation());
+      });
+
+      const year = document.getElementById("year");
+      if (year) {
+        year.textContent = new Date().getFullYear();
+      }
     </script>
   </body>
 </html>
